@@ -13,7 +13,7 @@ const works = () => {
         <section id='works'>
             <h2 className="worksTitle">My portfolio</h2>
             <span className="worksDesc">I take pride in paying attention to the smallest detailed and </span>
-            <div className="workImgs">
+            <div className="worksImgs">
                 <img src={Portfolio1} alt="" className="worksImg" />
                 <img src={Portfolio2} alt="" className="worksImg" />
                 <img src={Portfolio3} alt="" className="worksImg" />
