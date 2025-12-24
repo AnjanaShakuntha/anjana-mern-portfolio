@@ -50,11 +50,26 @@ const Contact = () => {
                     <textarea name="message" placeholder='Your Message' rows={5} className='msg' ></textarea>
                     <button type="submit" value="Send" className='submitBtn'>Submit</button>
                     <div className="links">
-                        <img src={facebookIcon} alt="Facebook" className="link" />
-                        <img src={twitterIcon} alt="Twitter" className="link" />
-                        <img src={youtubeIcon} alt="YouTube" className="link" />
-                        <img src={instagramIcon} alt="Instagram" className="link" />
-                    </div>
+    {/* Facebook Link */}
+    <a href="https://web.facebook.com/anjana.shakuntha" target="_blank" rel="noopener noreferrer">
+        <img src={facebookIcon} alt="Facebook" className="link" />
+    </a>
+
+    {/* Twitter Link */}
+    <a href="https://x.com/AnjanaShakuntha" target="_blank" rel="noopener noreferrer">
+        <img src={twitterIcon} alt="Twitter" className="link" />
+    </a>
+
+    {/* YouTube Link */}
+    <a href="https://www.threads.com/@anjanashakuntha" target="_blank" rel="noopener noreferrer">
+        <img src={youtubeIcon} alt="YouTube" className="link" />
+    </a>
+
+    {/* Instagram Link */}
+    <a href="https://www.instagram.com/anjanashakuntha/" target="_blank" rel="noopener noreferrer">
+        <img src={instagramIcon} alt="Instagram" className="link" />
+    </a>
+</div>
                 </form>
             </div>
         </div>

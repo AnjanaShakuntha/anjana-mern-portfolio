@@ -18,6 +18,12 @@
     object-fit: cover;
     height: 3rem;
     width: 4rem;
+    cursor: pointer;
+}
+
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 
